@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.qainfotech.com.PostManTutorial.IEEE">
+        <methods>
+          <include name="IEEE_ORG"/>
+          <include name="Cart"/>
+          <include name="Create_Account"/>
+          <include name="Digital_Library"/>
+          <include name="IEEE_Standards"/>
+          <include name="MoreSite"/>
+          <include name="Sign_in_SignOut"/>
+          <include name="IEEE_Spectrum"/>
+        </methods>
+      </class> <!-- com.qainfotech.com.PostManTutorial.IEEE -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
